@@ -35,8 +35,8 @@ Sets the new remote. This is the location where you want the files to be pushed 
 `git remote -v`
 
 Verifies the new remote URL. an example message displayed will be: 
->>origin  https://github.com/OishinSmith/Python-exercises.git (fetch)
->>origin  https://github.com/OishinSmith/Python-exercises.git (push)
+>>origin  https://github.com/OishinSmith/Python-exercises.git (fetch)>>
+>>origin  https://github.com/OishinSmith/Python-exercises.git (push)>>
 
 `git push origin master`
 
@@ -45,5 +45,5 @@ Pushes the changes in your local repository up to the remote repository you spec
 in this example.
 
 if you ever get the error code 
->>"error: failed to push some refs to 'https://github.com/OishinSmith/Python-exercises.git'"
+>>"error: failed to push some refs to 'https://github.com/OishinSmith/Python-exercises.git'">>
 use `git push origin master -f` to solve the problem since it uses "force"
