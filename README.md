@@ -35,8 +35,9 @@ Sets the new remote. This is the location where you want the files to be pushed 
 `git remote -v`
 
 Verifies the new remote URL. an example message displayed will be: 
->>origin  https://github.com/OishinSmith/Python-exercises.git (fetch)>>
->>origin  https://github.com/OishinSmith/Python-exercises.git (push)>>
+>>origin  https://github.com/OishinSmith/Python-exercises.git (fetch)
+
+>>origin  https://github.com/OishinSmith/Python-exercises.git (push)
 
 `git push origin master`
 
