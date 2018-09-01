@@ -45,6 +45,12 @@ Pushes the changes in your local repository up to the remote repository you spec
 >>https://github.com/OishinSmith/Python-exercises.git
 in this example.
 
+`git pull origin master`
+
+Remember, a pull is a fetch and a merge. * `git pull origin master` fetches commits from the master branch of the origin remote (into the local origin/master branch), and then it merges origin/master into the branch you currently have checked out.
+
+
+
 if you ever get the error code 
 >"error: failed to push some refs to 'https://github.com/OishinSmith/Python-exercises.git'" 
 
